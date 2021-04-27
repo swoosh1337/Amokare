@@ -1,3 +1,43 @@
-*{
-    
+:root{
+    --yellow:#F7CA3E;
 }
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline:none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+h1, h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+::selection{
+    background:var(--yellow);
+    color:#FFF;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    height:200rem;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:#333;
+}
+
+html::-webkit-scrollbar-thum{
+    background:var(--yellow);
