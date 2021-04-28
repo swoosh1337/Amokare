@@ -1,1 +1,1 @@
-web: npde app.js
+web: node app.js
