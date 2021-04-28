@@ -1,0 +1,22 @@
+{
+  "name": "amokare",
+  "version": "1.0.0",
+  "description": "Landing page for Georgian Food delivery - Amokare/ამოყარე built with html,css,JQuery",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swoosh1337/Amokare.git"
+  },
+  "author": "Irakli Grigolia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swoosh1337/Amokare/issues"
+  },
+  "homepage": "https://github.com/swoosh1337/Amokare#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
